@@ -7,7 +7,8 @@ message="$2"
 #echo "${sensor}"
 #echo "${message}"
 
-mqtt_msg="mosquitto_pub -h 10.0.200.107 -t \"home/sensor/${sensor}\" -m \"$message\" -u mqttUser -P mqttPassword"
+#use actual server and credentials when using
+mqtt_msg="mosquitto_pub -h <replace_with_mqtt_broker> -t \"home/sensor/${sensor}\" -m \"$message\" -u <replace_with_username> -P <replace_with_password>"
 #echo "$mqtt_msg"
 #run command
 eval ${mqtt_msg}
