@@ -1,1 +1,1 @@
-Custom scripts created for home automation
+Custom scripts created for home automation running on Raspberry Pi
